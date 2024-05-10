@@ -1,0 +1,87 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/news-detail/news-detail",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/weixiuyuan/list",
+    "pages/weixiuyuan/add-or-update",
+    "pages/weixiuyuan/detail",
+    "pages/shiyanshi/list",
+    "pages/shiyanshi/add-or-update",
+    "pages/shiyanshi/detail",
+    "pages/jingyanfenxiang/list",
+    "pages/jingyanfenxiang/add-or-update",
+    "pages/jingyanfenxiang/detail",
+    "pages/baoxiuxinxi/list",
+    "pages/baoxiuxinxi/add-or-update",
+    "pages/baoxiuxinxi/detail",
+    "pages/weixiubaogao/list",
+    "pages/weixiubaogao/add-or-update",
+    "pages/weixiubaogao/detail",
+    "pages/weixiuxinxi/list",
+    "pages/weixiuxinxi/add-or-update",
+    "pages/weixiuxinxi/detail",
+    "pages/weixiujieguo/list",
+    "pages/weixiujieguo/add-or-update",
+    "pages/weixiujieguo/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/messages/list",
+    "pages/messages/liuyan",
+    "pages/discussjingyanfenxiang/list",
+    "pages/discussjingyanfenxiang/add-or-update",
+    "pages/discussjingyanfenxiang/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "设备故障报修管理系统小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#A98175",
+    "selectedColor": "#2E4E7E",
+    "borderStyle": "white",
+    "backgroundColor": "#FFC773",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/shiyanshi/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "实验室"
+      },
+      {
+        "pagePath": "pages/jingyanfenxiang/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "经验分享"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
